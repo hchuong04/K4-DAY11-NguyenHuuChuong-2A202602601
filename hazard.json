@@ -1,0 +1,38 @@
+{
+  "format": "avsim-studio/1",
+  "params": {
+    "cutT0": 5.0,
+    "cutDur": 2.4,
+    "cutV": 15.0,
+    "cutDs": -4.0,
+    "pedT0": 9.6,
+    "pedV": 1.45,
+    "busGo": 17.5,
+    "tgT": 0.9,
+    "mu": 0.8,
+    "cutGap": null,
+    "cutBrake": 0.0,
+    "pedGap": null,
+    "pedLook": 0,
+    "civil": false
+  },
+  "policy": {},
+  "hazards": [
+    {
+      "type": "ped",
+      "x": 195.0,
+      "side": "S",
+      "v": 1.7,
+      "t0": 0.0,
+      "trig": 28.0
+    }
+  ],
+  "ego": "planner",
+  "space": {
+    "h0_x": [150.0, 230.0],
+    "h0_v": [1.2, 2.2],
+    "h0_trig": [18.0, 36.0]
+  },
+  "exposure": 0.03,
+  "why": "Người đi bộ sang đường không đúng nơi quy định (jaywalking) từ lề phía Nam, ngoài khu vực vạch sơn; cự ly nhận biết kích hoạt 18-36m và vận tốc 1.2-2.2 m/s; theo thống kê an toàn giao thông đô thị (NHTSA/FHWA), trung bình khoảng 30-35 chuyến đi có 1 tình huống người đi bộ băng qua đường bất cẩn ngoài vạch quy định."
+}
